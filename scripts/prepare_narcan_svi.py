@@ -81,7 +81,7 @@ print(f"Pearson correlation: r = {r:.2f}, p-value = {p:.4f}")
 X = sm.add_constant(tracts_gdf['SVI']) 
 y = tracts_gdf['narcan_per_1000'] 
 #model = sm.OLS(y, X).fit()
-model = smf.ols('narcan_per_1000_log ~ SVI', data=filtered).fit()
+#model = smf.ols('narcan_per_1000_log ~ SVI', data=filtered).fit()
 print(model.summary())
 print(f"Using {len(filtered)} rows after dropping NaNs/infs.")
 

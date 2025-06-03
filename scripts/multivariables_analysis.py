@@ -63,6 +63,7 @@ tracts_gdf['narcan_site_count'] = tracts_gdf['narcan_site_count'].fillna(0)
 #calculate Narcan sites per 1000 residents
 #tracts_gdf['narcan_per_1000'] = tracts_gdf['narcan_site_count'] / tracts_gdf['E_TOTPOP'] * 1000
 tracts_gdf['narcan_per_1000'] = tracts_gdf['narcan_site_count'] / tracts_gdf['E_TOTPOP'].replace(0, np.nan) * 1000
+#log transformation
 tracts_gdf['narcan_per_1000_log'] = np.log1p(tracts_gdf['narcan_per_1000'])
 
 # Drop rows with missing or infinite values in required columns
