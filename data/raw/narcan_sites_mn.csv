@@ -1,0 +1,68 @@
+id,name,latitude,longitude,address,city,state,postcode,country,url,phone,email,location_type,distance
+24441052,Zumbro Valley Health Center,44.0308723,-92.4796817,"1112 7th St NW, Rochester, Minnesota, 55901, US",Rochester,Minnesota,55901,US,https://www.zvhc.org/,,,Standard,1.1426311989394078
+19560692,Common Ground – Rochester,44.035499,-92.4960696,"1827 Broadway Ave S, Rochester, Minnesota, 56379, US",Rochester,Minnesota,56379,US,http://commongroundmn.org/,,,Standard,1.1518800356059198
+19560691,The Salvation Army Good Samaritan Health Clinic,44.0250275,-92.4626939,"120 N Broadway Ave , Rochester, Minnesota, 55906, US",Rochester,Minnesota,55906,US,https://centralusa.salvationarmy.org/northern/GoodSamaritanclinic/,,,Standard,1.6814698695879486
+24440068,The Salvation Army - Social Services Center,44.0251097,-92.4619158,"115 1st Ave NE, Rochester, Minnesota, 55906, US",Rochester,Minnesota,55906,US,https://centralusa.salvationarmy.org/northern/rochester/programs-and-services/,,,Standard,1.7202501289796615
+27277469,Olmsted Medical Center Southeast Pharmacy,44.012488,-92.460143,"210 Ninth St SE, Rochester, MN, 55904, US",Rochester,MN,55904,US,https://www.olmmed.org/,,,Standard,1.806071322078349
+25675033,The Landing MN,44.0184363,-92.4584318,"426 3rd Ave SE, Rochester, MN, 55904, US",Rochester,MN,55904,US,https://www.thelandingmn.org/,,,Standard,1.8375880575392138
+19560687,Doc’s Recovery House,43.9959423,-92.4760829,"1821 Restoration Road SW, Rochester, Minnesota, 55902, US",Rochester,Minnesota,55902,US,http://www.docsrecoveryhouse.org/,,,Standard,1.8479276632105075
+19560693,Recovery is Happening,44.0392276,-92.4609658,"25 16th Street NE , Rochester, Minnesota, 55906, US",Rochester,Minnesota,55906,US,http://www.recoveryishappening.org/,,,Standard,2.2166182807075945
+27277428,Nystrom & Associates (Rochester South),44.0004496,-92.4562183,"401 16th Street SE, Suite 100, Rochester, MN, 55904, US",Rochester,MN,55904,US,https://www.nystromcounseling.com/,,,Standard,2.3233549444637744
+19560688,Nystrom & Associates – Rochester South,44.0003872,-92.4561844,"401 16th Street SE Suite #100 , Rochester, Minnesota, 55904, US",Rochester,Minnesota,55904,US,https://www.nystromcounseling.com/our-locations/minnesota/rochester-clinic/,,,Standard,2.3271154009707486
+19560690,Damascus Way Re-Entry and Recovery Center,44.0231362,-92.431676,"2118 Campus Drive SE , Rochester, Minnesota, 55904, US",Rochester,Minnesota,55904,US,https://damascusway.com/,,,Standard,3.1789143831037547
+27277435,Olmsted Medical Center Northwest Pharmacy,44.0799038,-92.5400927,"5067 55th St. NW, Rochester, MN, 55901, US",Rochester,MN,55901,US,https://www.olmmed.org/,,,Standard,4.761168968662008
+27277468,Olmsted Medical Center Pine Island Pharmacy,44.181681,-92.779809,"111 County Road 11, Pine Island, MN, 55963, US",Pine Island,MN,55963,US,https://www.olmmed.org/,,,Standard,18.02242311012021
+27277433,Olmsted Medical Center Chatfield Pharmacy,43.8490858,-92.1927313,"237 Main Street N, Chatfield, MN, 55923, US",Chatfield,MN,55923,US,https://www.olmmed.org/,,,Standard,19.06376124319474
+19560684,Hiawatha Valley Mental Health Center – Wabasha,44.3795347,-92.0283277,"611 Broadway Ave Suite #100 , Wabasha, Minnesota, 55981, US",Wabasha,Minnesota,55981,US,https://www.hvmhc.org/contact/locations/wabasha-office/,,,Standard,33.96292805
+19560679,Sterling Pharmacy – Austin,43.6654375,-92.9902971,"1305 1st Avenue SW, Austin, Minnesota, 55912, US",Austin,Minnesota,55912,US,https://yoursterlingpharmacy.com/pharmacy/austin/,,,Standard,34.654804412069964
+19560671,Healthfinders Collaborative – Owatonna,44.0759075,-93.227167,"134 Southview St , Owatonna, Minnesota, 55060, US",Owatonna,Minnesota,55060,US,https://healthfindersmn.org/,,,Standard,36.501864558491675
+19560672,Steele County Public Health,44.0910941,-93.2413144,"635 Florence Ave, Owatonna, Minnesota, 55060, US",Owatonna,Minnesota,55060,US,https://www.steelecountymn.gov/public_health/index.php,,,Standard,37.32029433644208
+19560685,Common Ground – Red Wing,44.5639958,-92.5420992,"111 Hill Street Suite A , Red Wing, Minnesota, 55066, US",Red Wing,Minnesota,55066,US,http://commongroundmn.org/,,,Standard,37.6882177
+19560686,Hiawatha Valley Mental Health Center – Red Wing,44.5655108,-92.5770549,"2835 S Service Drive Suite #103, Red Wing, Minnesota, 55066, US",Red Wing,Minnesota,55066,US,https://www.hvmhc.org/contact/locations/red-wing-office/,,,Standard,37.93693240495426
+19560601,Planned Humanity,44.0532226,-91.6595594,"832 W Broadway St, Winona, Minnesota, 55987, US",Winona,Minnesota,55987,US,https://www.winonacf.org/nonprofit-directory/listing/planned-humanity/,,,Standard,41.53212725284858
+19560674,Allina Health Faribault Pharmacy,44.2884458,-93.2574729,"200 State Ave , Faribault, Minnesota, 55021, US",Faribault,Minnesota,55021,US,https://www.allinahealth.org/allina-health-faribault-medical-center,,,Standard,42.06200540645473
+19560683,Common Ground – Winona,44.0518792,-91.6379925,"174 Main Street Suite B , Winona, Minnesota, 55981, US",Winona,Minnesota,55981,US,http://commongroundmn.org/,,,Standard,42.59563401608775
+26865907,Faribault Public Library,44.290465,-93.26817,"11 Division St E, Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,42.59812239132522
+26865890,Midwest Recovery,44.2939536,-93.2662913,"303 1st Ave NE Ste 365, Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,42.62028811575941
+26865899,Pawn Minnesota,44.2934662,-93.2687753,"230 Central Ave N., Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,42.71562579352048
+26865901,Our Place Bar,44.293876,-93.2693057,"20 3rd St NW, Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,42.75158424850466
+26865902,Main Street Tobacco and Vape,44.2952911,-93.2695611,"417 First Ave NW, Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,42.80592667231816
+19560682,Hiawatha Valley Mental Health Center – Winona,44.0405834,-91.6312989,"420 E Sarnia Street Suite #2100, Winona, Minnesota, 55987, US",Winona,Minnesota,55987,US,http://www.hvmhc.org/,,,Standard,42.89690956702398
+26865875,Rice County Government Services Building,44.2940973,-93.2738447,"320 3rd St NW, Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,42.95972103643043
+24427596,Rice County Public Health,44.2940973,-93.2738447,"320 Third Street NW, Faribault, Minnesota, 55021, US",Faribault,Minnesota,55021,US,https://www.ricecountymn.gov/256/Public-Health,,,Standard,42.95972103643043
+26865032,HealthFinders Collaborative Faribault,44.2875455,-93.2894382,"1415 Town Square Ln, Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,43.46059651561353
+19560673,Healthfinders Collaborative – Faribault,44.2875919,-93.2894104,"1415 Town Square Lane, Faribault, Minnesota, 55021, US",Faribault,Minnesota,55021,US,https://healthfindersmn.org/,,,Standard,43.460703917608654
+24427608,Somali Community Resettlement Services,44.2891297,-93.2893242,"201 Lyndale Ave Suite W, Faribault, Minnesota, 55021, US",Faribault,Minnesota,55021,US,https://www.somalcrs.org/,,,Standard,43.50176979681404
+26865030,Somali Community Resettlement Services,44.2892938,-93.2893318,"201 Lyndale Ave S, Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,43.50691620089874
+26865898,Carbones Faribault,44.2900896,-93.2913654,"1525 Division St W, Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,43.621170290432524
+26865026,Community Action Center Faribault,44.3046867,-93.2886508,"1400 Cannon Circle, Suite 9, Faribault, MN, 55021, US",Faribault,MN,55021,US,,,,Standard,43.938282417703626
+19560675,Community Action Center of Faribault,44.304718,-93.2886635,"1400 Cannon Circle Suite 9 , Faribault, Minnesota, 55021, US",Faribault,Minnesota,55021,US,https://communityactioncenter.org/,,,Standard,43.939804395174754
+19560676,Community Action Center of Northfield,44.4426319,-93.1664314,"1651 Jefferson Pkwy HS-200 , Northfield, Minnesota, 55057, US",Northfield,Minnesota,55057,US,https://communityactioncenter.org/,,,Standard,44.22263117
+26865025,Community Action Center Northfield,44.4428237,-93.166708,"1651 Jefferson Pkwy HS200, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.24160020077557
+24423347,Healthy Community Initiative,44.4428237,-93.166708,"1651 Jefferson Pkwy HS128, Northfield, Minnesota, 55057, US",Northfield,Minnesota,55057,US,https://healthycommunityinitiative.org/,,,Standard,44.24160020077557
+26865034,Northfield City Hall,44.4511578,-93.158255,"801 Washington St., Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.31231993160145
+24423949,Northfield Area Family YMCA,44.432484,-93.1820752,"1501 Honeylocust Drive, Northfield, Minnesota, 55057, US",Northfield,Minnesota,55057,US,https://northfieldymca.org/,,,Standard,44.35414644769687
+26865038,Northfield YMCA,44.432484,-93.1820752,"1501 Honeylocust Dr., Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.35414644769687
+19560677,Healthfinders Collaborative – Northfield,44.4523417,-93.1606321,"706 Division Street S , Northfield, Minnesota, 55057, US",Northfield,Minnesota,55057,US,https://healthfindersmn.org/,,,Standard,44.45396878304722
+26865031,HealthFinders Collaborative Northfield,44.4523417,-93.1606321,"706 Division St S, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.45396878304722
+26865888,The Armory Square Event Center,44.4543648,-93.1597101,"519 Division St S, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.51396964776422
+26865903,Kinship Collective,44.4545489,-93.1598138,"515 Division St S, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.52628991899966
+26865035,Northfield Union of Youth,44.4537637,-93.1611418,"109 6th St W, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.53837228
+26865887,Northfield VFW,44.4543478,-93.1605359,"516 Division St S, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.54330540920651
+26865879,Carbones Northfield,44.4539227,-93.1623285,"620 Water St S, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.58908925487064
+26865885,Clothes Closet,44.4540919,-93.1623575,"600 Water St S, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.597975527881786
+26865891,Northfield Municipal Liquor,44.4552955,-93.1610783,"116 5th St West, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.607028433777835
+26865880,Firehouse Liquor,44.4296296,-93.1923662,"607 North Stafford Rd, Dundas, MN, 55019, US",Dundas,MN,55019,US,,,,Standard,44.62007979706478
+24423951,Northfield Public Library,44.4577495,-93.158961,"210 Washington St, Northfield, Minnesota, 55057, US",Northfield,Minnesota,55057,US,https://mynpl.org/home,,,Standard,44.644066371883774
+26865876,Tobacco Field,44.4483274,-93.1727239,"1100 MN-3, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.714747136031725
+26865882,The Eagles Club Northfield,44.4570205,-93.162098,"304 Water St. S, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.72424991455598
+26865039,Free Range Mental Health,44.4571501,-93.1621436,"103 3rd St W., Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.73192994991226
+26865037,The Coratel Inn & Suites,44.440553,-93.1826031,"1420 Riverview Dr, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.73251628575816
+26865905,Flaherty's,44.4412915,-93.1819669,"1700 Highway 3 S, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.74165344882771
+26865027,Northfield Police Department,44.4406553,-93.1843501,"1615 Riverview Dr., Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,44.80271284689397
+26865908,Loon Liquors,44.4513108,-93.1795424,"1325 Armstrong Rd #165, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,45.10300825518486
+26865036,Northfield Emergency Department,44.458979,-93.171561,"2000 North Ave, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,45.16040826316139
+26865904,Dawn's Corner Bar,44.4301584,-93.2073534,"200 Railway St N, Dundas, MN, 55019, US",Dundas,MN,55019,US,,,,Standard,45.217599378239285
+26865906,L&M Bar and Grill,44.4305417,-93.207049,"224 Railway St N, Dundas, MN, 55019, US",Dundas,MN,55019,US,,,,Standard,45.22240426922288
+26865896,Junk Truck MN,44.4266413,-93.2119064,"7 Cannon St, Dundas, MN, 55019, US",Dundas,MN,55019,US,,,,Standard,45.242557577086714
+26865029,St. Olaf College,44.4621319,-93.1840281,"1520 St. Olaf Ave, Northfield, MN, 55057, US",Northfield,MN,55057,US,,,,Standard,45.76283563519868
