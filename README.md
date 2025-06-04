@@ -52,10 +52,10 @@ However, the weak model fit implies that **other factors**, such as opioid overd
 
 ## Repository Structure
 
-- `data/` — Raw and processed datasets.
-- `scripts/` — Data preparation and analysis scripts (Python).
-- `powerbi/` — visualizations.
-- `README.md` — Project overview and technical documentation.
+- `data/` - Raw and processed datasets.
+- `scripts/` - Data preparation and analysis scripts (Python).
+- `outputs/` -  a box plot for visual analysis and a CSV file containing data suitable for various visualizations in PowerBI.
+- `README.md` - Project overview and technical documentation.
 
 ---
 

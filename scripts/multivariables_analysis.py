@@ -5,6 +5,8 @@ from scipy.stats import pearsonr
 import statsmodels.formula.api as smf
 import statsmodels.api as sm 
 import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 
@@ -66,7 +68,7 @@ tracts_gdf['narcan_per_1000'] = tracts_gdf['narcan_site_count'] / tracts_gdf['E_
 #log transformation
 tracts_gdf['narcan_per_1000_log'] = np.log1p(tracts_gdf['narcan_per_1000'])
 
-# Drop rows with missing or infinite values in required columns
+#drop rows with missing or infinite values in required columns
 filtered = tracts_gdf[['SVI', 'narcan_per_1000_log']].replace([np.inf, -np.inf], np.nan).dropna()
 
 
@@ -77,11 +79,23 @@ X = tracts_gdf[['RPL_THEME1', 'RPL_THEME2', 'RPL_THEME3', 'RPL_THEME4']]
 X = sm.add_constant(X)  # add intercept
 y = tracts_gdf['narcan_per_1000_log']
 
-# Fit model
+#fit model
 model = sm.OLS(y, X).fit()
 
-# Output results
+#output results
 print(model.summary())
 
-#export cleaned data for Power BI
-#tracts_gdf[['FIPS', 'SVI', 'narcan_site_count', 'narcan_per_1000']].to_csv("data/processed/mn_svi_narcan.csv", index=False)
+
+#bin SVI into quartiles
+filtered['SVI_quartile'] = pd.qcut(filtered['SVI'], 4, labels=["Q1 (Low)", "Q2", "Q3", "Q4 (High)"])
+
+#box plot
+plt.figure(figsize=(8, 6))
+sns.boxplot(data=filtered, x="SVI_quartile", y="narcan_per_1000_log", palette="coolwarm")
+plt.title("Narcan Access by SVI Quartile")
+plt.xlabel("SVI Quartile")
+plt.ylabel("Log(Narcan Sites per 1000 Residents)")
+plt.grid(True)
+plt.tight_layout()
+plt.savefig(r"C:/Users/Nari/narcan_svi_analysis/outputs/narcan_svi_boxplot.png", dpi=300)
+plt.show()
