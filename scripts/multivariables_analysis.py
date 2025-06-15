@@ -85,17 +85,30 @@ model = sm.OLS(y, X).fit()
 #output results
 print(model.summary())
 
+#extract coefficients and confidence intervals
+coefs = model.params
+conf = model.conf_int()
+conf.columns = ['lower_bound', 'upper_bound']
+conf['coef'] = coefs
+conf = conf.reset_index()
+conf = conf.rename(columns={'index': 'Variable'})
 
-#bin SVI into quartiles
-filtered['SVI_quartile'] = pd.qcut(filtered['SVI'], 4, labels=["Q1 (Low)", "Q2", "Q3", "Q4 (High)"])
+#remove intercept (optional)
+conf = conf[conf['Variable'] != 'const']
 
-#box plot
+#plot
 plt.figure(figsize=(8, 6))
-sns.boxplot(data=filtered, x="SVI_quartile", y="narcan_per_1000_log", palette="coolwarm")
-plt.title("Narcan Access by SVI Quartile")
-plt.xlabel("SVI Quartile")
-plt.ylabel("Log(Narcan Sites per 1000 Residents)")
+sns.pointplot(data=conf, x='coef', y='Variable', join=False, color='black')
+plt.errorbar(conf['coef'], conf['Variable'], 
+             xerr=[conf['coef'] - conf['lower_bound'], conf['upper_bound'] - conf['coef']], 
+             fmt='o', color='black', capsize=4)
+
+plt.axvline(0, color='gray', linestyle='--')
+plt.title('Regression Coefficients: Predicting Narcan Access')
+plt.xlabel('Coefficient Estimate (Log Narcan Sites per 1000 Residents)')
+plt.ylabel('SVI Component')
 plt.grid(True)
 plt.tight_layout()
-plt.savefig(r"C:/Users/Nari/narcan_svi_analysis/outputs/narcan_svi_boxplot.png", dpi=300)
+
+plt.savefig(r"C:/Users/Nari/narcan_svi_analysis/outputs/ols_coefficients_plot.png", dpi=300)
 plt.show()
